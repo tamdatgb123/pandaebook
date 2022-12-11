@@ -64,19 +64,43 @@ class MyaccountPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Tên: ${Profile.first_name} ${Profile.last_name}'),
+                Text(
+                  'Tên: ${Profile.first_name} ${Profile.last_name}',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 const SizedBox(
                   height: 10,
                 ),
-                Text('Số điện thoại: ${Profile.phone}'),
+                Text(
+                  'Số điện thoại: ${Profile.phone}',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 const SizedBox(
                   height: 10,
                 ),
-                Text('Email: ${Profile.email}'),
+                Text(
+                  'Email: ${Profile.email}',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 const SizedBox(
                   height: 10,
                 ),
-                Text('Địa chỉ: ${Profile.address}'),
+                Text(
+                  'Địa chỉ: ${Profile.address}',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 const SizedBox(
                   height: 10,
                 ),
